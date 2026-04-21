@@ -1,0 +1,424 @@
+body {
+    min-height: 200vh; 
+    width: 100%; 
+    overflow-x: hidden;
+  }
+
+::selection {background-color: #AD9968;
+color: #FFFFFF;}
+
+*{margin: 0;
+box-sizing: border-box;     }
+
+.nav {display: inline-block;
+width: 4.5%;}
+
+body {font-family: "Roboto", sans-serif;}
+
+header>ul {list-style: none;
+padding: 0;
+text-align: center;}
+
+.cima {text-decoration: none;
+color: black;
+letter-spacing: 2px;
+padding: 8px;
+font-size: 13px;
+text-transform: uppercase;
+font-style: bold;
+font-weight: 500;
+transition: 0.3s ease;}
+
+.cima:hover {color:#AD9966;
+transition: 0.3s ease;}
+
+#home {color: #AD9966}
+
+header {padding: 10px 0%;}
+
+.nav-logo {vertical-align: middle;
+width: 20%;}
+
+.nav-logo img {width: 66.81px;
+height: 79.38px;}
+
+#sec01 {background-image: url(imagens/header-bg.png);
+height: 78vh;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+position: relative;}
+
+#roof {position: absolute;
+top: 50%;
+left: 50%;
+text-align: center;
+transform: translate(-50%, -50%)}
+
+#roof p{color: white;
+font-size: 72px;
+letter-spacing: 10.8px;
+font-weight: 500;
+font-family: "Playfair Display", serif;
+text-align: center;
+margin-bottom: 0;
+margin-top: 0;
+font-weight: normal;}
+
+#sec01 span {color: white;
+font-size: 18px;
+}
+
+.emb {margin: 0px 0px 16px;
+padding: 8px 0px 0px;
+font-family: "Roboto", sans-serif;
+text-align: center}
+
+hr {margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.685);}
+
+.seta-baixo-img {vertical-align: middle;
+border-style: none;
+position: absolute;
+bottom: 20px;
+left: 49%;}
+
+
+
+#seta-direita {text-transform: uppercase;
+    background: url(imagens/book-table-bg.png);
+font-size: 13px;
+position: fixed;
+right: 0%;
+top: 43%;
+width: 92px;
+height: 180px;
+color: rgb(255, 255, 255);
+line-height: 180px;
+}
+
+#seta-direita span { font-size: 13px;
+transform: rotate(270deg);
+display: inline-block;
+transition: 0.4s ease;
+right: -0%;
+position: fixed;}
+
+#seta-direita span:hover {transform: rotate(360deg);
+color: black}
+
+#seta-esquerda {text-transform:uppercase;
+background: url(imagens/view-menu-bg.png);
+font-size: 13px;
+position: fixed;
+left: 0%;
+top: 43%;
+width: 92px;
+height: 180px;
+line-height: 180px;
+}
+
+#seta-esquerda h1 {font-size: 13px;
+transform: rotate(90deg);
+display: inline-block;
+transition: 0.4s ease;
+left: -0%;
+position:fixed;
+color: black;}
+
+#seta-esquerda h1:hover {transform: rotate(0deg);
+color: #AD9966;}
+
+#sec02 {width: 60%;
+margin: auto;}
+
+#daily {width: 60%;
+margin: auto;}
+
+#daily h1 { font-family: "Playfair Display", serif;
+margin-bottom: 20px;
+font-size: 48px;
+line-height: 1.5;
+letter-spacing: 7.2px;
+text-transform: uppercase;
+margin-top: 0;
+font-weight: normal;
+position: absolute;
+left: 100px;
+top: 1200px;}
+
+#pa{
+    color: #777777;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    text-align: left;
+    position: absolute;
+    left: 100px;
+    top: 1440px;
+}
+
+.botão {line-height: 48px;
+    padding: 0 30px;
+    border-radius: 0px;
+    background: #ad9966;
+    border: 1px solid #ad9966;
+    color: #fff;
+    display: inline-block;
+    font-weight: normal;
+    position: relative;
+    letter-spacing: 2px;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    position: absolute;
+    left: 100px;
+    top: 1600px;
+    transition: 0.4s ease;
+}
+
+.botão a{color: white;
+text-decoration: none;
+transition: 0.4s;
+}
+
+.botão:hover{background-color: white;
+transition: 0.4s ease;
+}
+
+.botão:hover a{color: #ad9966;
+transition: 0.4s ease;}
+
+.direito {position: absolute;
+right: 97px;
+top: 752px;
+width: 49%;
+height: 1090px;
+background-color: #faf5f0;}
+
+.menu-list {margin-top: 200px;}
+
+.direito p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #010000;
+    text-align: center;}
+
+.menu-list h3{   font-size: 21px;
+    position: relative;
+    padding-bottom: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+     font-family: "Playfair Display", serif;
+    color: #000;
+    line-height: 1.2em;
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: underline rgb(172, 172, 172);}
+
+    .menu-list .list li{padding-bottom: 25px;}
+    .menu-list ul{list-style: none;}
+
+    .list li .menu-item {
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #010000;}
+    
+    .single-menu h3 {margin-bottom: 10px;}
+
+    #sec03 {width: 60%;
+    margin: auto;}
+
+    .img01 {display: inline-block;
+    position: absolute;
+top: 1900px;
+left: 70px;}
+
+  .img02 {display: inline-block;
+    position: absolute;
+top: 2270px;
+left: 655px;}
+
+
+  .img03 {display: inline-block;
+    position: absolute;
+top: 2735px;
+left: 120px;}
+
+  .img04 {display: inline-block;
+    position: absolute;
+top: 2860px;
+left: 610px;
+z-index: -1;}
+
+.transp {overflow: hidden;
+    line-height: 0;}
+
+.capa {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%; 
+background-color: rgba(0, 0, 0, 0.5);
+display: flex;
+justify-content: center; 
+align-items: center;    
+opacity: 0;
+transition: 0.3s;}
+
+.capa span {
+    color: white;
+    font-size: 60px; 
+    line-height: 1;  
+    text-align: center;
+    font-family: sans-serif;}
+
+.transp:hover .capa {
+    opacity: 1;}
+
+#sec04 {width: 60%;
+margin: auto;}
+
+.rooms h4{position: relative;
+    top: 2900px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 1.5;
+    letter-spacing: 7.2px;
+    text-transform: uppercase;
+    font-weight: normal;
+    left: 490px;}
+
+.rooms p{
+color: #777777;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    text-align: left;
+    position: relative;
+    top: 2900px;
+    left: 490px;}
+
+.form {
+  position: absolute;
+  left: 97px;
+  top: 3550px;
+  width: 49%;
+  height: 880px;
+  background-color: #faf5f0;
+  padding: 30px;
+  padding-top: 140px;}
+
+.form {
+  width: 600px;}
+
+.forms {
+  margin-bottom: 15px;}
+
+.form-control {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background-color: #ffffff;
+  font-size: 14px;
+  outline: none;}
+
+textarea.form-control {
+  height: 150px;
+  resize: none;}
+
+.form-control::placeholder {
+  color: #777;}
+
+.forms-inline {
+  display: flex;
+  gap: 15px;}
+
+.forms-inline .forms {
+  flex: 1;}
+
+  .botão2 {line-height: 48px;
+    padding: 0 30px;
+    border-radius: 0px;
+    background: #000000;
+    border: 1px solid #000000;
+    color: #fff;
+    display: inline-block;
+    font-weight: normal;
+    position: relative;
+    letter-spacing: 2px;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    position: absolute;
+    left: 474px;
+    top: 4250px;
+    transition: 0.4s ease;
+}
+
+.botão2 a{color: white;
+text-decoration: none;
+transition: 0.4s;
+}
+
+.botão2:hover{background-color: white;
+transition: 0.4s ease;
+border: 1px solid #ad9966;
+}
+
+.botão2:hover a{color: #ad9966;
+transition: 0.4s ease;}
+
+#sec05 {width: 60%;
+margin: auto;}
+
+.chef {background: url(imagens/chefs-quotes.jpg);
+position: relative;
+left: 390px;
+top: 3100px;
+height: 735.13px;
+width: 509.98px;}
+
+.chef h5{position: relative;
+    top: 200px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 1.5;
+    letter-spacing: 7.2px;
+    text-transform: uppercase;
+    font-weight: normal;
+    right: 530px;}
+
+.chef p{position: relative;
+top: 200px;
+right: 530px;
+color: #777777;
+font-family: "Roboto", sans-serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 1.7;
+letter-spacing: 1px;
+text-align: left;
+}
+
+.assin {background: url(imagens/signature.png);
+width: 181px;
+height: 70px;
+position: relative;
+top: 240px;
+right: 530px;}
